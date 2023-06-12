@@ -1,0 +1,134 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EAE3;
+}
+
+.heading, .current-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.image-container {
+    height: 409px;
+    width: 270px;
+    border-radius: 0.625rem 0 0 0.625rem;
+    background-image: url("/images/image-product-desktop.jpg");
+    background-size: cover;
+}
+
+.icon {
+    color: black;
+}
+
+.card-product {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 409px;
+    padding: 1.875rem;
+    background-color: #fff;
+    border-radius: 0 0.625rem 0.625rem 0;
+}
+
+.sub-head {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.625rem;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    color: #727177;
+}
+
+.heading {
+    color: #13181E;
+    line-height: 2rem;
+}
+
+.description {
+    font-size: 0.75rem;
+    color: #727177;
+    
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.current-price {
+    font-size: 32px;
+}
+
+.old-price {
+    text-decoration-line: line-through;
+}
+
+.icon {
+    margin-right: 0.75rem;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3D8168;
+    color: #fff;
+    padding: 0.825rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: background-color 150ms linear;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #1A4031;
+}
+
+.heading, .description, .price {
+    margin-bottom: 1.625rem;
+}
+
+@media screen and (max-width: 559px) {
+    body {
+        padding: 1rem;
+    }
+
+    .card-product {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .image-container {
+        height: 240px;
+        width: 100%;
+        border-radius: 0.625rem 0.625rem 0 0;
+        background-image: url("/images/image-product-mobile.jpg");
+        background-size: cover;
+    }
+
+    .main-content {
+        border-radius: 0 0 0.625rem 0.625rem;
+        width: 100%;
+        height: unset;
+    }
+}
