@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
-- Live Site URL: [Live site URL](https://x6nenko.github.io/product-preview-card-component-main/)
+- Live Site URL: [Live site URL](https://x6nenko.github.io/1-lvl-product-preview-card-component-main/)
 
 ## My process
 
